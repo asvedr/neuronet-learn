@@ -1,2 +1,8 @@
+PAGE 30
+
 base with datasets
 https://archive.ics.uci.edu/ml/
+
+1) Has basic understanding of micro-controller peripherals.  
+2) dead locks - live-locks bankers algo
+3) posix synchronisation 
