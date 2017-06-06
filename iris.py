@@ -65,3 +65,4 @@ for seq in check:
 	print('X: %s, ANSWER: %s' % (seq, pred))
 print('on fit %s of %s' % (fit_ok, len(fit)))
 print('on check %s of %s' % (check_ok, len(check)))
+# test
