@@ -24,6 +24,10 @@ class Neuron:
 		for j in range(len(self.weights)):
 			Dw = (Y - _Y) * X[j] * rate
 			self.weights[j] = self.weights[j] + Dw
+	def save(self):
+		return list(self.weights)
+	def load(self, lst):
+		self.weights = np.array(lst)
 
 class Stat:
 	def __init__(self):
@@ -68,6 +72,83 @@ class Predictor:
 						stobj.bad_yes_log.append(neuron.predict_num(X))
 				stobj.total += 1
 		return [(obj[0], obj[2]) for obj in stat]
+	def fit_with_stat(self, datasets, minrate):
+		count = 0
+		last_good_val = None
+		while True:
+			for dataset in datasets:
+				X = dataset[:4]
+				Y = dataset[4]
+				self.fit(X, Y, minrate)
+			stat = self.statistics(datasets)
+			bad_neurs  = 0
+			fail_count = 0
+			for i in range(len(stat)):
+				stnew = stat[i][1]
+				if stnew.bad_yes != 0 or stnew.bad_no != 0:
+					bad.append(i)
+					fail_count += stnew.bad_yes + stnew.bad_no
+			print('iter %s outers %s fail count %s' % (i, bad, fail_count))
+			if bad_neurs == 0 or count >= max_fit:
+				if last_good_val:
+					self.load(last_good_val)
+				return
+			count += 1
+	def load(self, vals):
+		for pair in zip(self.neurons, vals):
+			pair[0][1].load(pair[1])
+	def save(self):
+		return [neur[1].save() for neur in self.neurons]
+
+class N2:
+	def __init__(self):
+		self.setosa = Neuron(4)
+		self.virginica = Neuron(4)
+		self.sname = 'Iris-setosa'
+		self.vname = 'Iris-virginica'
+		self.other = 'Iris-versicolor'
+	def fit(self, dataset):
+		dataset = [(set[:4], set[4]) for set in dataset]
+		max_fit = 1000	
+		err_count = 1
+		best_val = len(dataset)
+		snapshot = None
+		for i in range(max_fit):
+			err_count = 0
+			for set in dataset:
+				if self.setosa.predict(set[0]) != (set[1] == self.sname):
+					err_count += 1
+				self.setosa.fit(set[0], 0.2, set[1] == self.sname)
+			if err_count < best_val:
+				snapshot = self.setosa.save()
+				if err_count == 0:
+					break
+		self.setosa.load(snapshot)
+		print('setosa ok')
+		dataset = [set for set in dataset if set[1] != self.sname]
+		err_count = 1
+		best_val = len(dataset)
+		snapshot = None
+		for i in range(max_fit):
+			err_count = 0
+			for set in dataset:
+				if self.virginica.predict(set[0]) != (set[1] == self.vname):
+					err_count += 1
+				self.virginica.fit(set[0], 0.2, set[1] == self.vname)
+			if err_count < best_val:
+				snapshot = self.virginica.save()
+				if err_count == 0:
+					break
+		self.virginica.load(snapshot)
+		print('virg ok')
+		print({'s': self.setosa.save(), 'v': self.virginica.save()})
+	def predict(self, data):
+		if self.setosa.predict(data):
+			return self.sname
+		elif self.virginica.predict(data):
+			return self.vname
+		else:
+			return self.other
 
 def get_set():
 	def read(t):
@@ -87,6 +168,18 @@ def split_by_percent(list, percent_in_first):
 		del set[i]
 	return (first, set)
 
+predictor = N2()
+(fit, check) = split_by_percent(get_set(), 0.5)
+# predictor.fit_with_stat(fit, 0.01)
+predictor.fit(fit)
+print('CHECK FIT')
+fok = len([1 for seq in fit if predictor.predict(seq[:4]) == seq[4]])
+print('%s of %s (%s%%)' % (fok, len(fit), int(100 * float(fok) / len(fit)) ))
+print('EXAM')
+cok = len([1 for seq in check if predictor.predict(seq[:4]) == seq[4]])
+print('%s of %s (%s%%)' % (cok, len(check), int(100 * float(cok) / len(check)) ))
+
+'''
 predictor = Predictor()
 (fit, check) = split_by_percent(get_set(), 0.5)
 for _ in range(10):
@@ -112,3 +205,4 @@ for stat in predictor.statistics(fit + check):
 	print(stat)
 	# print('BY', stat[1].bad_yes_log)
 	# print('BN', stat[1].bad_no_log)
+'''
