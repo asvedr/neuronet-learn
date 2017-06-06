@@ -47,6 +47,7 @@ class Classificator(object):
 	'''
 	def __init__(self):
 		self.neurons = []
+		# if no one neuron say 'YES' we use .rest_group as answer
 		self.rest_group = None
 
 	def predict(self, data):
