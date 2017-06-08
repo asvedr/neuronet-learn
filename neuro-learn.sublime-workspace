@@ -1,0 +1,1087 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wei",
+				"weight_count"
+			],
+			[
+				"pred",
+				"predict"
+			],
+			[
+				"fit",
+				"fit"
+			],
+			[
+				"best_",
+				"best_val"
+			],
+			[
+				"try",
+				"try_count"
+			],
+			[
+				"virg",
+				"virginica"
+			],
+			[
+				"vi",
+				"virginica"
+			],
+			[
+				"set",
+				"setosa"
+			],
+			[
+				"fi",
+				"fit"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"se",
+				"set"
+			],
+			[
+				"neu",
+				"neurons"
+			],
+			[
+				"val",
+				"vals"
+			],
+			[
+				"spl",
+				"split_by_percent"
+			],
+			[
+				"bad",
+				"bad"
+			],
+			[
+				"fail",
+				"fail_count"
+			],
+			[
+				"bad_",
+				"bad_yes"
+			],
+			[
+				"datas",
+				"dataset"
+			],
+			[
+				"ma",
+				"mask"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"templ",
+				"template"
+			],
+			[
+				"cont",
+				"contain_signal"
+			],
+			[
+				"temp",
+				"template"
+			],
+			[
+				"get",
+				"get_mess_name"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
+				"he",
+				"hex"
+			],
+			[
+				"read",
+				"read_log"
+			],
+			[
+				"bit",
+				"bitarray"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"pa",
+				"pair"
+			],
+			[
+				"signals",
+				"signals"
+			],
+			[
+				"_ma",
+				"_match_sigs"
+			],
+			[
+				"clas",
+				"classmethod"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"Str",
+				"struct"
+			],
+			[
+				"re",
+				"repkey"
+			],
+			[
+				"si",
+				"sig"
+			],
+			[
+				"poo",
+				"pools_out"
+			],
+			[
+				"even",
+				"events_out"
+			],
+			[
+				"eve",
+				"events_out"
+			],
+			[
+				"arb",
+				"arbitration_id"
+			],
+			[
+				"pasa",
+				"pasa_tools"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"time",
+				"time_to"
+			],
+			[
+				"use",
+				"use_default"
+			],
+			[
+				"hmi_",
+				"hmi_path"
+			],
+			[
+				"rec",
+				"recs"
+			],
+			[
+				"cora",
+				"coral_path"
+			],
+			[
+				"path",
+				"path_from_workspace"
+			],
+			[
+				"sch",
+				"schema_path"
+			],
+			[
+				"vs",
+				"vs_can_path"
+			],
+			[
+				"ws",
+				"wspace_path"
+			],
+			[
+				"pp",
+				"path_from_workspace"
+			],
+			[
+				"all",
+				"allow_replace"
+			],
+			[
+				"allo",
+				"allow_replace"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"events",
+				"events"
+			],
+			[
+				"def",
+				"default_hmi"
+			],
+			[
+				"schem",
+				"schema_path"
+			],
+			[
+				"defa",
+				"default_coral"
+			],
+			[
+				"schema",
+				"schema"
+			],
+			[
+				"self",
+				"selfdir"
+			],
+			[
+				"repl",
+				"replace_in_line"
+			],
+			[
+				"code",
+				"codereplacers"
+			],
+			[
+				"ine",
+				"indexer"
+			],
+			[
+				"Index",
+				"IndexError"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"True",
+				"True"
+			],
+			[
+				"st",
+				"strip"
+			],
+			[
+				"sp",
+				"split"
+			],
+			[
+				"split",
+				"splitter"
+			],
+			[
+				"from",
+				"time_from"
+			],
+			[
+				"tim",
+				"time_to"
+			],
+			[
+				"print",
+				"print_val"
+			],
+			[
+				"va",
+				"vars"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"arc",
+				"arch"
+			],
+			[
+				"arch",
+				"architect"
+			],
+			[
+				"cant",
+				"cantype"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"te",
+				"templ"
+			],
+			[
+				"ca",
+				"can1"
+			],
+			[
+				"sig",
+				"signals"
+			],
+			[
+				"signal",
+				"signals"
+			],
+			[
+				"sign",
+				"signals"
+			],
+			[
+				"bin",
+				"binbase"
+			],
+			[
+				"com",
+				"comprerror"
+			],
+			[
+				"cp",
+				"comprerror"
+			],
+			[
+				"me",
+				"mess_b"
+			],
+			[
+				"mes",
+				"mess_a"
+			],
+			[
+				"mess_",
+				"mess_a"
+			],
+			[
+				"loo",
+				"look_post"
+			],
+			[
+				"a",
+				"accidents"
+			],
+			[
+				"bc",
+				"BHCAN"
+			],
+			[
+				"rea",
+				"reason"
+			],
+			[
+				"acc",
+				"accident_count"
+			],
+			[
+				"max",
+				"max_num"
+			],
+			[
+				"arg",
+				"args"
+			],
+			[
+				"thre",
+				"thread"
+			],
+			[
+				"compa",
+				"comparers"
+			],
+			[
+				"func",
+				"funcs"
+			],
+			[
+				"coma",
+				"comparer"
+			],
+			[
+				"g",
+				"get_reason"
+			],
+			[
+				"prec",
+				"precursors"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"proc",
+				"proc_v"
+			],
+			[
+				"upd",
+				"upd_p"
+			],
+			[
+				"pro",
+				"proc"
+			],
+			[
+				"ot",
+				"other_precs"
+			],
+			[
+				"index",
+				"indexer"
+			],
+			[
+				"fun",
+				"func"
+			],
+			[
+				"in",
+				"indexer"
+			],
+			[
+				"other",
+				"other_precursor"
+			],
+			[
+				"parse",
+				"parser"
+			],
+			[
+				"thi",
+				"this_prec"
+			],
+			[
+				"line",
+				"lines"
+			],
+			[
+				"None",
+				"None"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"add",
+				"add_argument"
+			],
+			[
+				"id",
+				"id_in"
+			],
+			[
+				"header",
+				"header"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"geti",
+				"getid"
+			],
+			[
+				"by",
+				"byKeyword"
+			],
+			[
+				"is",
+				"is_hex"
+			],
+			[
+				"getid",
+				"getidhex"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "adaline/neuron.py",
+			"settings":
+			{
+				"buffer_size": 589,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "classificator-perceptron/main.py",
+			"settings":
+			{
+				"buffer_size": 5694,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 250.0,
+		"history":
+		[
+			"view.encoding()",
+			"view.encoding",
+			"view",
+			"import numpy",
+			"urllib",
+			"import urllib",
+			"urllib",
+			"tuple(print(m) for m in dir(window))",
+			"(print(m) for m in dir(window))",
+			"window.select",
+			"dir()",
+			"tuple(print(m) for m in dir(sheet))",
+			"(print(m) for m in dir(sheet))",
+			"for m in dir(sheet):",
+			"dir(sheet)",
+			"sheet.select",
+			"dir()",
+			"view.select",
+			"view.set_encoding",
+			"view.setencoding",
+			"view.encoding()",
+			"view.encoding",
+			"view",
+			"view.encoding()",
+			"view.encoding",
+			"view",
+			"help",
+			"type(w)",
+			"w = sheet.window()",
+			"sheet.window()",
+			"sheet.window",
+			"dir(sheet)",
+			"sheet",
+			"view.__help__",
+			"dir(view)",
+			"dir()",
+			"dir",
+			"self",
+			"help",
+			"view.encoding()",
+			"view"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/arvitch/Documents/neuronet-learn",
+		"/C/Users/arvitch/Documents/neuronet-learn/adaline",
+		"/C/Users/arvitch/Documents/neuronet-learn/classificator-perceptron"
+	],
+	"file_history":
+	[
+		"/C/Users/arvitch/Documents/neuronet-learn/neuro-learn.sublime-project",
+		"/C/Users/arvitch/Documents/neuronet-learn/NOTES",
+		"/C/Users/arvitch/Documents/neuronet-learn/classificator/weights",
+		"/C/Users/arvitch/AppData/Local/Continuum/Anaconda3/Scripts/conda-script.py",
+		"/C/Users/arvitch/Documents/neuronet-learn/iris.py",
+		"/C/Users/arvitch/Documents/neuronet-learn/iris.csv",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/neoVIEngineLog_2017-04-24-145958.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/can analys",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/mainMicroUdpLogger_20170424144454_Activity.log",
+		"/C/Users/arvitch/Documents/workspace/vs_can/src/general/session_general_impl.cpp",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/history.txt",
+		"/C/Users/arvitch/Documents/pasa-tools/find_correlation.py",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/info of AUX/history",
+		"/C/Users/arvitch/Documents/pasa-tools/can_parse_util.py",
+		"/C/Users/arvitch/Documents/pasa-tools/all_hail_gps.py",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/info of AUX/out.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/info of AUX/1255392_AUX_Atlantis/1255392_AUX_Atlantis/mainMicroUdpLogger_20170523163742_Activity.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/info of AUX/vs_can.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/day-to-night.txt",
+		"/C/Users/arvitch/Desktop/DBC/PNET-BHCAN.json",
+		"/C/Users/arvitch/Desktop/DBC/res.py",
+		"/C/Users/arvitch/Desktop/DBC/zipjsbase.py",
+		"/C/Users/arvitch/Documents/pasa-tools/make-db.py",
+		"/C/Users/arvitch/Desktop/Analysys",
+		"/C/Users/arvitch/Documents/workspace/vs_can/src/general/session_general_impl.h",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/info of AUX/1255392_AUX_Atlantis/1255392_AUX_Atlantis/neoVI_2017-05-23_165713.log",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/trouble with time/L_6_20170518_125624_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_debug.log",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/trouble with time/vscanlog.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/info of AUX/crl.txt",
+		"/C/Users/arvitch/Documents/pasa-tools/pasa_log_prettifier.py",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/info of AUX/canlog.txt",
+		"/C/Users/arvitch/Documents/pasa-tools/blf.py",
+		"//merann.ru/projects/PASA/Scripts/Blf to txt/README.txt",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/trouble with time/history.txt",
+		"/C/Users/arvitch/Documents/Python Scripts/canlog.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/SWC_SIGNALS_ERR/CAN LOG.txt",
+		"/C/Users/arvitch/Documents/Python Scripts/blf.py",
+		"/C/Users/arvitch/.ipython/profile_default/startup/tools.py",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/trouble with time/L_6_20170518_125624_UCA_D41D8CD98F00B204E9800998ECF8427E/rules",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/night-to-day.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/time_light_analys.py",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/vscanlog.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/day-to-night-vsp.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/day-to-night-vs.txt",
+		"/C/Users/arvitch/Documents/workspace/af_aggregator_test_service/src/stub_can/stub_service_if_can.cpp",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/maybe-to-day.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/pasalog.txt",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/trouble with time/File435344880.txt",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/trouble with time/7zE8AF331F3/dev/shmem/pas_sloginfo.log",
+		"/C/Users/arvitch/Documents/workspace/ss__system_config_private/scfg/sm_config_launch.cfg",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/temp.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/notes",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/displays current street as next/history.txt",
+		"/C/Users/arvitch/Documents/workspace/af_aggregator/src/can/session_if_general.cpp",
+		"/C/Users/arvitch/Documents/workspace/mm_gal_doc/misc/GAL_hide_key/private_key_x.cpp",
+		"/C/Users/arvitch/Documents/workspace/ui_vp4__hmi_mdl_exp/guide_api/API.xml",
+		"/C/Users/arvitch/Documents/workspace/vs_can/src/ipc/cCANServiceIPC.cpp",
+		"/C/Users/arvitch/Documents/workspace/sa_vp4_sal_service/src/engine/sal_session.cpp",
+		"/C/Users/arvitch/Documents/pasa-tools/time_cut.py",
+		"/C/Users/arvitch/Documents/pasa-tools/find.py",
+		"/C/Users/arvitch/Documents/pasa-tools/API.xml",
+		"/C/Users/arvitch/Desktop/mainMicroUdpLogger_20170123181358_Activity.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/history",
+		"/C/Users/arvitch/.ssh/id_rsa.pub",
+		"/C/Users/arvitch/.ssh/id_rsa",
+		"/C/Users/arvitch/Documents/pasa-tools/udpToPasa.py",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/third_call.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/L_21_20170424_135731_UCA_D41D8CD98F00B204E9800998ECF8427E/Logs/CORAL_CELL.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/second_coral.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/second_call_log.txt",
+		"/C/Users/arvitch/Documents/workspace/CORAL_CELL/inc/CoralCell.h",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/third_coral.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/first_coral.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/first_call_log.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/L_21_20170424_135731_UCA_D41D8CD98F00B204E9800998ECF8427E/Logs/VoconHigh.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/L_21_20170424_135731_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_showmem.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/L_21_20170424_135731_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_performance.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/L_21_20170424_135731_UCA_D41D8CD98F00B204E9800998ECF8427E/Ss_State_Service_Info.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/L_21_20170424_135731_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_system.csv",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/mainMicroSerialLogger_20170424144500.log",
+		"/C/Users/arvitch/Documents/pasa-tools/zippedbaseprettifier.py",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Auto headlights/L_21 Auto Headlights on and HU running brightness as night in day/L_21_20170424_135731_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_debug.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/from Iskander",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/filtred.txt",
+		"/C/Users/arvitch/Documents/pasa-tools/CoralCell.h",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/rulesout.txt",
+		"/C/Users/arvitch/Documents/workspace/nw_modem/src/service_impl.h",
+		"/C/Users/arvitch/Documents/workspace/nw_modem/src/service_impl.cpp",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/modem-coral-rules.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/rules.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/filtred2.txt",
+		"/C/Users/arvitch/Documents/workspace/CORAL_CELL_Core/CORAL_CELL/service_impl.h",
+		"/C/Users/arvitch/Documents/workspace/CORAL_CELL_Core/CORAL_CELL/CoralCellAp.cpp",
+		"/C/Users/arvitch/Documents/workspace/nw_modem/src/service.h",
+		"/C/Users/arvitch/Documents/workspace/nw_modem/src/general/session_general_impl.cpp",
+		"/C/Users/arvitch/Documents/workspace/nw_modem/src/voice/thread_voice_impl.cpp",
+		"/C/Users/arvitch/Documents/workspace/nw_phone/src/service_impl.cpp",
+		"/C/Users/arvitch/Documents/workspace/nw_modem_unit_test/src/service_impl.cpp",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/search for CoralEventCallback",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/Assist_calltimer_keepon_updating/L_6_20170421_163836_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_debug.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/similar",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/Assist_calltimer_keepon_updating/mainMicroUdpLogger_20170421161533_Activity.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/Assist_calltimer_keepon_updating/from first AsissCall.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/mainMicroUdpLogger_20170421161533_Activity.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/nw_modemlog.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/nw_log.txt",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/HU Display Black Screen/history.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/Assist_calltimer_keepon_updating/L_5_20170421_163618_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_debug.log",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/Assist_calltimer_keepon_updating/L_5_20170421_163618_UCA_D41D8CD98F00B204E9800998ECF8427E/ScreenShot_20170421163618.bmp",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/assist_call/Assist_calltimer_keepon_updating/L_6_20170421_163836_UCA_D41D8CD98F00B204E9800998ECF8427E/ScreenShot_20170421163836.bmp",
+		"/C/Users/arvitch/Documents/pasa-tools/weeknum.py",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/HU Display Black Screen/witheventlog.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/SWC_SIGNALS_ERR/history",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Audio_micromutes/BobMarleyLog.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Audio_micromutes/ZenCircLog.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Audio_micromutes/history",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Audio_micromutes/MainUdpLog_[2017_apr_19_09_59_31_256].txt",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/HU Display Black Screen/L_109_20170426_141804_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_debug.log",
+		"/C/Users/arvitch/Documents/pasa-tools/can_compare.py",
+		"/C/Users/arvitch/Documents/pasa-tools/can-prettifier.py",
+		"/C/Users/arvitch/Documents/pasa-tools/can_match.py",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/HU Display Black Screen/hmilog.txt",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/HU Display Black Screen/L_109_20170426_141804_UCA_D41D8CD98F00B204E9800998ECF8427E/Logs/navi_user.tar",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/HU Display Black Screen/L_109_20170426_141804_UCA_D41D8CD98F00B204E9800998ECF8427E/pas_system.csv",
+		"/C/Users/arvitch/Desktop/TRIAGE_BUG/HU Display Black Screen/L_109_20170426_141804_UCA_D41D8CD98F00B204E9800998ECF8427E/ScreenShot_20170426141804.bmp",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Audio_micromutes/rules.txt",
+		"/C/Users/arvitch/Desktop/PRIMARY BUG/Audio_micromutes/playbackworkerlog.txt",
+		"/C/Users/arvitch/Desktop/auto cutting off for BTA (Samsung Note 4 and iPhone 7)/Audio cutting off Issue and phone details.txt"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\arvitch\\Documents\\workspace,*.cpp",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.h",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.cpp",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.cpp,*.h",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.cpp",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.cpp,*.h",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.cpp,*.c,*.h,*.hpp",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.h,*.hpp",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.h",
+			"C:\\Users\\arvitch\\Documents\\workspace,*.cpp",
+			"C:\\Users\\arvitch\\Documents\\workspace",
+			"C:\\Users\\arvitch\\Documents\\tosearch\\sal",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"read_can",
+			"_get_mess",
+			"gps",
+			"038c",
+			"036c",
+			"0334",
+			"0324",
+			"0x324",
+			"02F2",
+			"02f2",
+			"OnRecvDateTimeIPCMessageCB",
+			"powernet",
+			"pnet",
+			"atlantis",
+			"ICDisplayLine1",
+			"ICDisplayAuxTextPacker",
+			"ICDisplayGenericTextPacker",
+			"TELEMATIC_DISPLAY_INFO",
+			"aux",
+			"atlantis",
+			"aux",
+			"Atlantis",
+			"\\t0090",
+			"0090",
+			"90 .. 0D",
+			"ps_ipc_mp",
+			"SendNavigationDataRequest",
+			"OnSendNavigationDataRequestHandler",
+			"SendAppHeartbeatAckRequest",
+			"CORAL_CELL",
+			"MSCAN",
+			"HSCAN",
+			"getid",
+			"aux",
+			"090 .. .D",
+			"090 .. .d",
+			"090 00 0d 00",
+			"0090",
+			"0090 ",
+			"0090",
+			"dir",
+			"time",
+			"VS_CAN_GENERAL_FUEL_LEVEL_LOW_STAT_EVENT_EVENT",
+			"time",
+			"dim",
+			"backl",
+			"Value",
+			"Published",
+			"brightness change",
+			"nv_navigation",
+			"brightness",
+			"brigh",
+			"light",
+			"night",
+			"day",
+			"day_mode",
+			"night",
+			"VS_CAN_GENERAL_HEAD_LIGHT_SENSITIVITY_EVENT",
+			"VS_Can_General_HEAD_LIGHT_SENSITIVITY_Event",
+			"VS_CAN_GENERAL_HEAD_LIGHT_SENSITIVITY_EVENT",
+			"SetGeneralSubServicePublishHEAD_LIGHT_SENSITIVITYEventRequest",
+			"VS_CAN_GENERAL_HEAD_LIGHT_SENSITIVITY_EVENT",
+			"DataLength",
+			"HEAD_LIGHT",
+			"VS_CAN_GENERAL_TIRE_PRESSURE_REAR_LEFT2_EVENT",
+			"VS_CAN_GENERAL_NAV_REPITITION_STAT_EVENT",
+			"VS_CAN_GENERAL_TIRE_PRESSURE_FRONT_REAR_EVENT",
+			"VS_CAN_GENERAL_FUEL_LEVEL_LOW_STAT_EVENT_EVENT",
+			"VS_CAN_GENERAL_FUEL_TYPE_EVENT",
+			"Published",
+			"VS_CAN_GENERAL_FUEL_LEVEL_LOW_STAT_EVENT_EVENT",
+			"FUEL",
+			"datapool",
+			"event name=\"Dummy_Ic_Phone_GetMessage\"",
+			"event name=\"Dummy_Ic_Phone_GetMessage\" direction=\"IN\" eventID=\"131\" parameterCount",
+			"VS_CAN_GENERAL_AUTO_DOOR_LOCK_STAT_EVENT",
+			"define.*VS_CAN_GENERAL_AUTO_DOOR_LOCK_STAT_EVENT",
+			"m_arrCanProtocols",
+			"Published Event",
+			"night",
+			"VS_CAN_GENERAL_DAY_MODE_STAT_EVENT",
+			"CurrentIndex:[1]",
+			"SAL_MM_MEDIASERVICE_PLAYBACK_CURRTRACKLISTSTATE_EVENTHandler",
+			"mm_media_service/PlaybackWorker_5/SeekPrev",
+			"mm_media_service/PlaybackWorker_5/on_player_seek_to_track_by_offset",
+			"mm_media_service/PlaybackWorker_6/on_player_seek_to_track_by_offset",
+			"mm_media_service/PlaybackWorker_5/Set",
+			"mm_media_service/PlaybackWorker",
+			"local_ended",
+			"80050182",
+			"disconnect",
+			"allow_wa",
+			"DAY_MODE",
+			"VS_CAN_GENERAL_DAY_MODE_STAT_EVENT",
+			"day_mode",
+			"try_lines",
+			"day_mode_",
+			"try_lines",
+			"CID_ECELL_NOTIFY_SIM_STATUS_CHANGE",
+			"CodeMess",
+			"CALL",
+			"0x80050182U",
+			"CID_ECELL_NOTIFY_NORMAL_CALL_TERMINATED",
+			"0x80050182",
+			"0x8002078",
+			"0x80020",
+			"CALL",
+			"0x80050",
+			"0x80050182",
+			"0x80020781",
+			"eCellCtrlEvent",
+			"Coral",
+			"CID_ECELL_REPLY_NORMAL_CALL_START",
+			"CID_ECELL_NOTIFY_NORMAL_CALL_TERMINATED",
+			"GetCallTerminationStatus",
+			"ConnectAssistCallRequest",
+			"AssistCallConnectCoralEventHandler",
+			"Send",
+			"ConnectAssistCallRequest ",
+			"ConnectAssistCallRequest ModemService",
+			"ConnectAssistCallRequest",
+			"SetGeneralSessionId",
+			"sessionid",
+			"SetGeneralSessionId",
+			"m_generalsessionid",
+			"coral",
+			"m_generalsessionid",
+			"AssistCallDisConnectCoralEventHandler"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "adaline/neuron.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "classificator-perceptron/main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								935
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "neuro-learn.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1334.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
