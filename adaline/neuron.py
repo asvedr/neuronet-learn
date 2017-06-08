@@ -19,8 +19,9 @@ class Disconvergence(Exception):
 
 class Neuron(object):
 	"""docstring for Neuron"""
-	def __init__(self, weight_count, name):
+	def __init__(self, weight_count, name, u):
 		super().__init__()
+		self.u = u # learn coefficent
 		self.weights = np.zeros(weight_count)
 		self.w0 = 0.0
 		self.name = name
@@ -30,7 +31,7 @@ class Neuron(object):
 		return self.weights.dot(data) + self.w0
 	def fit(self, samples, allow_cost=0.001, max_iter=-1):
 		# on u = 0.01 fit is gonna bad, but on 0.001 it gonna ok
-		u = 0.001
+		u = self.u # 0.0001
 		X = []
 		Y = []
 		for samp in samples:

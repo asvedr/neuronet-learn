@@ -78,41 +78,43 @@ class Classificator(object):
 		def split_by_Y(fitset, Y):
 			allow_accuracy = 0.9
 
-			neuron         = NeuronM.Neuron(paramcount, Y)
+			neuron         = NeuronM.Neuron(paramcount, Y, 0.00005)
 			snapshot       = None
 			last_good_rate = 0
 			total          = len(fitset)
-			for _ in range(100):
+			for _ in range(1):
 				# fit
 				# for set in fitset:
 					# neuron.fit(set.X, 1, set.Y == Y)
 				try:
-					neuron.fit(list(map(NeuronM.Sample.to_num_class(Y), fitset)), max_iter=100)
+					neuron.fit(list(map(NeuronM.Sample.to_num_class(Y), fitset)), max_iter=500)
 					# check
 					loger.log('fit ok', Y)
 					success = len([1 for set in fitset if neuron.predict(set.X) == (set.Y == Y)])
-					loger.log('check it:', success)
 				except NeuronM.Disconvergence:
-					loger.log('try split - disconv', Y)
-					success = False
+					loger.log('split', 'disconv')
+					success = -1
 				if success == total:
+					loger.log('split', 'succ == total')
 					return neuron
 				if success > last_good_rate:
 					snapshot = neuron.save()
 					last_good_rate = success
 			if float(last_good_rate) / total > allow_accuracy:
 				neuron.load(snapshot)
+				loger.log('split', 'last good allow')
 				return neuron
 			else:
+				loger.log('split','last good bad: %s of %s' % (float(last_good_rate) / total, allow_accuracy))
 				return None
 
 		def final_check(fit, check):
 			percent = lambda l1, l2: int(100 * float(len(l1)) / len(l2))
 			print('FIT:')
 			f_fit = [(set.X,set.Y,self.predict(set.X)) for set in fit if self.predict(set.X) != set.Y]
-			print('%s of %s (%s%%)' % (len(f_fit), len(fit), percent(f_fit, fit)))
+			print('%s of %s (%s%% err)' % (len(f_fit), len(fit), percent(f_fit, fit)))
 			f_che = [(set.X,set.Y,self.predict(set.X)) for set in check if self.predict(set.X) != set.Y]
-			print('%s of %s (%s%%)' % (len(f_che), len(check), percent(f_che, check)))
+			print('%s of %s (%s%% err)' % (len(f_che), len(check), percent(f_che, check)))
 			return percent(f_fit, fit) < 10 and percent(f_che, check) < 10
 
 
