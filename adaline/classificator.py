@@ -79,6 +79,7 @@ class Classificator(object):
 			allow_accuracy = 0.9
 
 			neuron         = NeuronM.Neuron(paramcount, Y, 0.00005)
+			# neuron         = NeuronM.Neuron(paramcount, Y, 0.000000001, True)
 			snapshot       = None
 			last_good_rate = 0
 			total          = len(fitset)
@@ -169,6 +170,9 @@ def test():
 			return s
 	fit = [samp([make(t) for t in line.split(',')]) for line in open(src, 'rt').read().split('\n')]
 	clsf = Classificator.from_fitset(fit)
+	fst = clsf.neurons[0]
+	if fst.name == 'Iris-setosa':
+		print(fst.cost)
 
 test()
 '''
