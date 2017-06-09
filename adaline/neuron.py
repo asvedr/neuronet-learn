@@ -47,8 +47,12 @@ class Neuron(object):
 		while last_cost > allow_cost and (fit_iter_count < max_iter or max_iter < 0):
 			out = np.array(list(map(self.predict_value, X)))
 			errors = Y - out
-			self.w0 += u * errors.sum() # why sum all into w0 ?
-			self.weights += X.T.dot(errors) * u # T is transpose. Why transpose ?
+			# why sum all into w0 ? because x0 always 1
+			self.w0 += u * errors.sum()
+			# for every W{i} we make errors.sum * X{i} * u
+			# T is transpose. Why transpose ? for one dismension transpose can be ignored
+			self.weights += X.T.dot(errors) * u
+			# cost is just for loging and detecting disconvergence
 			self.cost.append((errors ** 2).sum() / 2.0)
 			last_cost = self.cost[-1]
 			fit_iter_count += 1
